@@ -21,6 +21,19 @@ public class Atividade5 {
 		x = sc.nextInt();
 		System.out.println("Valor Inteiro: " + x);
 		
+		//lendo mais de uma linha e quebra de linha pendente
+		
+		String s1, s2, s3;
+		
+		s1 = sc.nextLine();
+		s2 = sc.nextLine();
+		s3 = sc.nextLine();
+		
+		System.out.println("Dados digitados: ");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
 		//ler doc para mais
 		
 		sc.close();
