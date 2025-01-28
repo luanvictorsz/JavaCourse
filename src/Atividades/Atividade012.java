@@ -12,6 +12,5 @@ public class Atividade012 {
 		while(x != 0) {
 			x = sc.nextInt();
 		}
-		
 	}
 }
