@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade7 {
+public class Atividade007 {
 	
 	/*
 	 * Operadores comparativos:

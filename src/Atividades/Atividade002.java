@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade2 {
+public class Atividade002 {
 	/*
 	 * expressões aritmeticas: 
 	 * 

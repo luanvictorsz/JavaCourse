@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade8 {
+public class Atividade008 {
 	
 	public static void Executar() {
 		//Estrutura condicional IF

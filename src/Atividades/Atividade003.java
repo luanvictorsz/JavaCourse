@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade3 {
+public class Atividade003 {
 	//Declaração de variaveis
 	
 	/*Sintaxe:

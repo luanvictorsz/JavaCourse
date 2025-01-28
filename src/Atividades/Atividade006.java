@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade6 {
+public class Atividade006 {
 	public static void Executar() {
 		int x = 100;
 		

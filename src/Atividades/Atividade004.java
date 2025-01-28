@@ -2,8 +2,10 @@ package Atividades;
 
 import java.util.Locale;
 
-public class Atividade4 {
+public class Atividade004 {
+	
 	public static void Executar() {
+			
 		//Saida de dados em Java:
 		double x = 10.35784;
 		
@@ -20,7 +22,6 @@ public class Atividade4 {
 		
 		//simplificando
 		System.out.printf("Resultado: %.2f metros%n", x);
-		
 		
 	}
 }

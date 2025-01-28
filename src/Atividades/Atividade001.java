@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade1 {
+public class Atividade001 {
 	//Comentarios
 	
 	/*

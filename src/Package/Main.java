@@ -1,11 +1,11 @@
 package Package;
 
-import Atividades.Atividades10;
+import Atividades.Atividade010;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Atividades10.Executar();
+		Atividade010.Executar();
 	}
 
 }

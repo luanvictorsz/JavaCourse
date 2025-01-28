@@ -2,7 +2,7 @@ package Atividades;
 
 import java.util.Scanner;
 
-public class Atividade11 {
+public class Atividade011 {
 	public static void Executar() {
 		//Expressao Condicional ternária
 		

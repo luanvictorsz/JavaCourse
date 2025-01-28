@@ -1,6 +1,6 @@
 package Atividades;
 
-public class Atividade9 {
+public class Atividade009 {
 	public static void Executar() {
 		
 		/*Operadores e atribuição acumulativa

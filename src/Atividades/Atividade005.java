@@ -3,7 +3,7 @@ package Atividades;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Atividade5 {
+public class Atividade005 {
 	public static void Executar() {
 		Scanner sc = new Scanner(System.in);
 		Locale.setDefault(Locale.US);

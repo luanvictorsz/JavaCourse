@@ -2,8 +2,9 @@ package Atividades;
 
 import java.util.Scanner;
 
-public class Atividades10 {
+public class Atividade010 {
 	 public static void Executar(){
+		 
 	 Scanner sc = new Scanner(System.in);
 	 
 	 int x = sc.nextInt();
