@@ -42,5 +42,7 @@ public class Atividades10 {
 			System.out.println("existe apenas 7 dias na semana");
 			
 	 	}
+	 
+	 	sc.close();
 	}
 }
