@@ -10,13 +10,13 @@ public class Program {
 		
 		System.out.println("Enter product data: ");
 		System.out.println("Name: ");
-		p.Name = sc.next();
+		p.Name = sc.nextLine();
 		System.out.println("Price: ");
 		p.Price = sc.nextDouble();
 		System.out.println("Quantity in stock: ");
 		p.Quantity = sc.nextInt();
 		
-		System.out.println(p.Name +", " + p.Price + ", " + p.Quantity);
+		System.out.println(p);
 		
 		sc.close();
 	

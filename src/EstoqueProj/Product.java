@@ -17,4 +17,16 @@ public class Product {
 	public double RemoveInStock(int quantity) {
 		return Quantity -= quantity;
 	}
+	
+	@Override
+	public String toString() {
+		return Name 
+				+",  Price: R$" 
+				+ Price
+				+ ", "
+				+ Quantity
+				+ " Units"
+				+ ", Total: $ " 
+				+ TotalValueInStock();
+	}
 }
