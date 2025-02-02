@@ -22,11 +22,11 @@ public class Product {
 	public String toString() {
 		return Name 
 				+",  Price: R$" 
-				+ Price
+				+ String.format("%.2f", Price)
 				+ ", "
 				+ Quantity
 				+ " Units"
-				+ ", Total: $ " 
-				+ TotalValueInStock();
+				+ ", Total: R$ " 
+				+ String.format("%.2f", TotalValueInStock());
 	}
 }
