@@ -1,10 +1,12 @@
 package OOP;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class ProjectOOP {
 	public static void Executar() {
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
 		Triangle x, y;
