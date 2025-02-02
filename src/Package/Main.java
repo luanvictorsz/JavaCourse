@@ -1,11 +1,11 @@
 package Package;
 
-import OOP.ProjectOOP;
+import EstoqueProj.Program;
 
 public class Main {
 
 	public static void main(String[] args) {
-		ProjectOOP.Executar();
+		Program.Executar();
 	}
 
 }
