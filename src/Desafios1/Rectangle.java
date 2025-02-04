@@ -7,7 +7,7 @@ public class Rectangle {
 	
 	public static double Area(double widht, double height) 
 	{
-		double Area = widht * height;
-		return Area;
+		return widht * height;
 	}
+	
 }

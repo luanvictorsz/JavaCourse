@@ -15,7 +15,9 @@ public class Program {
 		rec.Widht = sc.nextDouble();
 		rec.Height = sc.nextDouble();
 		
-		System.out.println(rec.Area(rec.Widht, rec.Height));
+		double results = rec.Area(rec.Widht, rec.Height);
+		
+		System.out.println(results);
 		
 		sc.close();
 	}
