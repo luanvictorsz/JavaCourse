@@ -1,6 +1,6 @@
 package Package;
 
-import EstoqueProj.Program;
+import Desafios1.Program;
 
 public class Main {
 
