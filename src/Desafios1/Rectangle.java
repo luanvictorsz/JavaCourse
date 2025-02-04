@@ -15,4 +15,9 @@ public class Rectangle {
 		return 2 * (width + height);
 	}
 	
+	public static double Diagonal(double width, double height)
+	{
+		return Math.sqrt(width * width + height * height);
+	}
+	
 }
