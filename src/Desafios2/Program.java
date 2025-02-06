@@ -6,6 +6,7 @@ public class Program {
 	public static void Executar() {
 		Scanner sc = new Scanner(System.in);
 		Employee emp = new Employee();
+		
 		System.out.print("Name: ");
 		emp.Name = sc.nextLine();
 		System.out.print("Gross salary: ");

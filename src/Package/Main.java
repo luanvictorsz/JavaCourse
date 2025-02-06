@@ -1,6 +1,6 @@
 package Package;
 
-import Desafios1.Program;
+import Desafios3.Program;
 
 public class Main {
 
