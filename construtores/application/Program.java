@@ -16,6 +16,8 @@ public class Program {
 		double price = sc.nextDouble();
 		
 		Product product = new Product(name, price);
+		product.setName(name);
+		product.setPrice(price);
 		
 		System.out.println();
 		System.out.println("Product data: " + product);
@@ -35,6 +37,11 @@ public class Program {
 		
 		System.out.println();
 		System.out.println("Updated data: " + product);
+		
+		//exemplo d echamado
+		System.out.println(product.getName());
+		
 		sc.close();
+		
 	}
 }
