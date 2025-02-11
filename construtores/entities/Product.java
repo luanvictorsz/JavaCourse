@@ -5,10 +5,11 @@ public class Product {
 	public double price;
 	public int quantity;
 	
-	public Product(String Name, double Price, int Quantity) {
+	public Product(String Name, double Price /*, a quantity não está no parametro*/) {
 		this.name = Name;
 		this.price = Price;
-		this.quantity = Quantity;
+		//sobrecarga
+		this.quantity = 0;
 	}
 
 	public double totalValueInStock() {
