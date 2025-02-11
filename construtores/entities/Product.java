@@ -5,6 +5,10 @@ public class Product {
 	public double price;
 	public int quantity;
 	
+	public Product() {
+		//construtor sem os parametros
+	}
+	
 	public Product(String Name, double Price /*, a quantity não está no parametro*/) {
 		this.name = Name;
 		this.price = Price;
