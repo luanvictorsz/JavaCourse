@@ -4,6 +4,12 @@ public class Product {
 	public String name;
 	public double price;
 	public int quantity;
+	
+	public Product(String Name, double Price, int Quantity) {
+		this.name = Name;
+		this.price = Price;
+		this.quantity = Quantity;
+	}
 
 	public double totalValueInStock() {
 		return price * quantity;
