@@ -6,6 +6,8 @@ import entities.Product;
 
 public class Program {
 	public static void main(String[] args) {
+		
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
@@ -38,7 +40,7 @@ public class Program {
 		System.out.println();
 		System.out.println("Updated data: " + product);
 		
-		//exemplo d echamado
+		//exemplo de chamado
 		System.out.println(product.getName());
 		
 		sc.close();
