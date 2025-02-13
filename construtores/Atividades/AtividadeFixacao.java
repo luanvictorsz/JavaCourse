@@ -14,6 +14,7 @@ public class AtividadeFixacao {
 	public AtividadeFixacao(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;
+		
 		deposit(initialDeposit);
 	}
 
