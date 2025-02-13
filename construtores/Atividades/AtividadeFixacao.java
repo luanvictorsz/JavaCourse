@@ -45,6 +45,13 @@ public class AtividadeFixacao {
 		balance -= amount + 5.0;
 	}
 	
-	
+	public String toString() {
+		return "Account "
+				+ getNumber()
+				+ ", Holder:  " 
+				+ getHolder() 
+				+ ", Balance: $"
+				+ getBalance();
+	}
 	
 }
