@@ -35,7 +35,13 @@ public class Program {
 		System.out.println();
 		System.out.println("Account data: ");
 		System.out.println(account);
-			
+		
+		System.out.println();
+		System.out.println("Enter a withdraw value: ");
+		double withdraw = sc.nextDouble();
+		account.withdraw(withdraw);
+		System.out.println("Updated account data: ");
+		System.out.println(account);
 		sc.close();
 	}
 }
