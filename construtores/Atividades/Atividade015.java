@@ -1,17 +1,17 @@
 package Atividades;
 
-public class AtividadeFixacao {
+public class Atividade015 {
 	private int number;
 	private String holder;
 	private double balance;
 	
 
-	public AtividadeFixacao(int number, String holder) {
+	public Atividade015(int number, String holder) {
 		this.number = number;
 		this.holder = holder;
 	}
 	
-	public AtividadeFixacao(int number, String holder, double initialDeposit) {
+	public Atividade015(int number, String holder, double initialDeposit) {
 		this.number = number;
 		this.holder = holder;
 		

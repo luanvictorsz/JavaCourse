@@ -7,7 +7,11 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		AtividadeFixacao account;
+		Atividade016 atv = new Atividade016();
+		
+		atv.Executar();
+		
+		/* Atividade015 account;
 		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
@@ -25,11 +29,11 @@ public class Program {
 		if(response == 'y') {
 			System.out.println("Enter a deposit value: ");
 			double initialDeposit = sc.nextDouble();
-			account = new AtividadeFixacao(number, name, initialDeposit);
+			account = new Atividade015(number, name, initialDeposit);
 		}
 		else
 		{
-			account = new AtividadeFixacao(number, name);
+			account = new Atividade015(number, name);
 		}
 		
 		System.out.println();
@@ -51,5 +55,7 @@ public class Program {
 		System.out.println("Updated account data: ");
 		System.out.println(account);
 		sc.close();
+		
+		*/
 	}
 }
