@@ -25,6 +25,16 @@ public class Program {
 			alturas[i] = sc.nextDouble();
 		}
 		
+		double soma = 0.0;
+		for(int i = 0; i < n; i++) {
+			soma = soma + alturas[i];
+		}
+		double mediaAlturas = soma / n;
+		
+		System.out.println();
+		System.out.printf("Altura média: %.2f%n" + mediaAlturas);
+
+		 
 		sc.close();
 	}
 }
