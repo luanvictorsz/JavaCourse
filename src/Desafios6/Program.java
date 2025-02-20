@@ -15,7 +15,7 @@ public class Program {
 		int n = sc.nextInt();
 		
 		for(int i = 0; i < n; i++) {
-			System.out.println("Rent #" + i + ":");
+			System.out.println("Rent #" + (i + 1) + ":");
 			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
@@ -31,7 +31,7 @@ public class Program {
 		System.out.println("Busy Rooms: ");
 		for(int i = 0; i < 10; i++) {
 			if(vect[i] != null) {
-				System.out.println(vect[i]);
+				System.out.println(i + ": " + vect[i]);
 			}
 		}
 		
