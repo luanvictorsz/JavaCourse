@@ -27,8 +27,12 @@ public class Program {
 			vect[roomNumber] = new Rent(name, email);
 		}
 		
+		
+		System.out.println("Busy Rooms: ");
 		for(int i = 0; i < 10; i++) {
-			System.out.println(vect[i]);
+			if(vect[i] != null) {
+				System.out.println(vect[i]);
+			}
 		}
 		
 		sc.close();
