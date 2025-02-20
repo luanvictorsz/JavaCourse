@@ -6,6 +6,6 @@ import Desafios3.Program;
 public class Main {
 
 	public static void main(String[] args) {
-		Desafios5.Program.Executar();
+		Desafios6.Program.Executar();
 	}
 }

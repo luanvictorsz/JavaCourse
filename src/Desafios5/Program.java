@@ -52,7 +52,7 @@ public class Program {
 				System.out.println(nomes[i]);
 			}
 		}
-		
+		 	
 		sc.close();
 	}
 }
