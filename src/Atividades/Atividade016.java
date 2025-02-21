@@ -27,6 +27,7 @@ public class Atividade016 {
 		
 		System.out.printf("Average Height: %.2f%n", avg);
 		
+		
 		sc.close();
 	}
 }
