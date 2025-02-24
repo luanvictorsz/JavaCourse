@@ -1,4 +1,4 @@
-package EstoqueProj;
+package Desafios7;
 import java.util.Scanner;
 
 public class Program {

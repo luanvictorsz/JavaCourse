@@ -1,4 +1,4 @@
-package OOP;
+package Desafios08;
 
 import java.util.Locale;
 import java.util.Scanner;

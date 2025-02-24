@@ -1,4 +1,4 @@
-package EstoqueProj;
+package Desafios7;
 
 public class Product {
 	public String Name;

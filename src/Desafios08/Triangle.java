@@ -1,4 +1,4 @@
-package OOP;
+package Desafios08;
 
 public class Triangle {
 	public double a;
