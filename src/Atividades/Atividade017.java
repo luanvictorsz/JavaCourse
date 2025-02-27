@@ -21,5 +21,12 @@ public class Atividade017 {
         for(String x : lista){
             System.out.println(x);
         }
+
+        System.out.println("----------------------------------");
+        lista.remove(1);
+        lista.removeIf(x -> x.charAt(0) == 'M');
+        for (String x : lista){
+            System.out.println(x);
+        }
     }
 }
