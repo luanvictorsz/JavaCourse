@@ -12,6 +12,12 @@ public class Atividade017 {
         lista.add("Bob");
         lista.add("Anna");
 
+        lista.add(2, "Victor"); //adicionando o 'elemento' Victor no index 2.
+
+        lista.remove("Anna"); //removendo o elemento "Anna"
+
+        System.out.println(lista.size()); // tamanho da lista
+
         for(String x : lista){
             System.out.println(x);
         }
