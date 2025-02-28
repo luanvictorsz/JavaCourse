@@ -28,5 +28,8 @@ public class Atividade017 {
         for (String x : lista){
             System.out.println(x);
         }
+
+        System.out.println("-----------------------------------");
+        System.out.println("Index of Victor: " + lista.indexOf("Victor"));
     }
 }
