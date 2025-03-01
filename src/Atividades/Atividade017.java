@@ -2,6 +2,7 @@ package Atividades;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Atividade017 {
     public static void Executar(){
@@ -11,6 +12,7 @@ public class Atividade017 {
         lista.add("Alex");
         lista.add("Bob");
         lista.add("Anna");
+        lista.add("Elisa");
 
         lista.add(2, "Victor"); //adicionando o 'elemento' Victor no index 2.
 
@@ -31,5 +33,11 @@ public class Atividade017 {
 
         System.out.println("-----------------------------------");
         System.out.println("Index of Victor: " + lista.indexOf("Victor"));
+        List<String> result = lista.stream().filter(x -> x.charAt(0) == 'E').collect(Collectors.toList());
+
+        for(String x : result){
+            System.out.println(x);
+        }
+
     }
 }
