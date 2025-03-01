@@ -40,7 +40,7 @@ public class Atividade017 {
         }
 
         System.out.println("----------------------------------");
-        String name = lista.stream().filter(x -> x.charAt(0) == 'B').findFirst().orElse(null);
+        String name = lista.stream().filter(x -> x.charAt(0) == 'D').findFirst().orElse(null);
         System.out.println(name);
     }
 }
