@@ -1,10 +1,9 @@
 package APackage;
 
-import Atividades.Atividade017;
-import Desafios09.Program;
+import Atividades.Atividade018;
 
 public class Main {
 	public static void main(String[] args) {
-		Program.Executar();
+		Atividade018.Executar();
 	}
 }

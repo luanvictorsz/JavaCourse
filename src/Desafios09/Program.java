@@ -33,6 +33,7 @@ public class Program {
 
         System.out.println("Enter the employee id that will have salary increase: ");
         int idSalary = sc.nextInt();
+
         Integer pos = position(list, idSalary);
 
         if(pos == null){
