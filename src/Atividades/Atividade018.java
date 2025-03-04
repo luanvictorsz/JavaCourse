@@ -37,5 +37,4 @@ public class Atividade018 {
 
         sc.close();
     }
-
 }
