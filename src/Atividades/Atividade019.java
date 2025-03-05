@@ -3,9 +3,14 @@ package Atividades;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class Atividade019 {
     public static void Executar(){
+
+        // https://docs-oracle-com.translate.goog/javase/8/docs/api/java/time/package-summary.html?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+        DateTimeFormatter fmt01 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
         LocalDate date01 = LocalDate.now();
         LocalDateTime date02 = LocalDateTime.now();
 
@@ -24,5 +29,7 @@ public class Atividade019 {
         System.out.println(data05);
         System.out.println(data06);
         System.out.println(data07);
+
+        LocalDate data08 = LocalDate.parse("04/03/2025", fmt01);
     }
 }
