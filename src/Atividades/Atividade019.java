@@ -8,8 +8,6 @@ import java.time.format.DateTimeFormatter;
 public class Atividade019 {
     public static void Executar(){
 
-        // https://docs-oracle-com.translate.goog/javase/8/docs/api/java/time/package-summary.html?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
-        DateTimeFormatter fmt01 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 
         LocalDate date01 = LocalDate.now();
         LocalDateTime date02 = LocalDateTime.now();
@@ -30,8 +28,13 @@ public class Atividade019 {
         System.out.println(data06);
         System.out.println(data07);
 
+        // https://docs-oracle-com.translate.goog/javase/8/docs/api/java/time/package-summary.html?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+        DateTimeFormatter fmt01 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        DateTimeFormatter fmt02 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
+
         LocalDate data08 = LocalDate.parse("04/03/2025", fmt01);
 
         System.out.println(data08.format(fmt01)); //exibindo no formato dia mes e ano
+        System.out.println(data05.format(fmt02)); //exibindo ono formado dia, mes ano e horario
     }
 }
