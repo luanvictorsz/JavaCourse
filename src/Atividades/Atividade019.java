@@ -31,5 +31,7 @@ public class Atividade019 {
         System.out.println(data07);
 
         LocalDate data08 = LocalDate.parse("04/03/2025", fmt01);
+
+        System.out.println(data08.format(fmt01)); //exibindo no formato dia mes e ano
     }
 }
