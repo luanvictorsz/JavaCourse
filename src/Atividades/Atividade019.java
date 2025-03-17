@@ -39,5 +39,11 @@ public class Atividade019 {
         System.out.println(data08.format(fmt01)); //exibindo no formato dia mes e ano
         System.out.println(data05.format(fmt02)); //exibindo ono formado dia, mes ano e horario
         System.out.println(fmt03.format(data06));
+
+        LocalDateTime data09 = LocalDateTime.ofInstant(data06, ZoneId.systemDefault());
+        LocalDateTime data10 = LocalDateTime.ofInstant(data06, ZoneId.of("Portugal"));
+
+        System.out.println(data09);
+        System.out.println(data10);
     }
 }
