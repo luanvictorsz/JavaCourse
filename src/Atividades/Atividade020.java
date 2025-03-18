@@ -3,6 +3,7 @@ package Atividades;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
 
 public class Atividade020 {
     public static  void Executar(){
@@ -15,5 +16,11 @@ public class Atividade020 {
 
         System.out.println("pastWeekLocalDate: " + pastWeekLocalDate);
         System.out.println("nextWeekLocalDate: "+ nextWeekLocalDate);
+
+        Instant pastWeekInstante = d03.minus(7, ChronoUnit.DAYS);
+        Instant nextWeekInstante = d03.plus(7, ChronoUnit.DAYS);
+
+        System.out.println("pastWeekInstante: " + pastWeekInstante);
+        System.out.println("nextWeekInstante: " + nextWeekInstante);
     }
 }
