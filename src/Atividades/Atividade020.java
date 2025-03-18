@@ -1,5 +1,6 @@
 package Atividades;
 
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -22,5 +23,9 @@ public class Atividade020 {
 
         System.out.println("pastWeekInstante: " + pastWeekInstante);
         System.out.println("nextWeekInstante: " + nextWeekInstante);
+
+        Duration t2 = Duration.between(pastWeekInstante, d03);
+
+        System.out.println("t2 dias = " + t2.toDays());
     }
 }
