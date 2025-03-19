@@ -13,8 +13,8 @@ public class Atividade021 {
         Date y1 = sdf1.parse("19/03/2025");
         Date y2 = sdf2.parse("19/03/2025 20:00:24");
 
-        System.out.println("y1: " + y1);
-        System.out.println("y2: " + y2);
+        System.out.println("y1: " + sdf1.format(y1));
+        System.out.println("y2: " + sdf2.format(y2));
 
     }
 }
