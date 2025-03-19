@@ -1,9 +1,11 @@
 package APackage;
 
-import Atividades.Atividade020;
+import Atividades.Atividade021;
+
+import java.text.ParseException;
 
 public class Main {
-	public static void main(String[] args) {
-        Atividade020.Executar();
+	public static void main(String[] args) throws ParseException {
+        Atividade021.Executar();;
 	}
 }
