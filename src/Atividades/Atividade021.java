@@ -16,5 +16,8 @@ public class Atividade021 {
         System.out.println("y1: " + sdf1.format(y1));
         System.out.println("y2: " + sdf2.format(y2));
 
+        Date x1 = new Date();
+
+        System.out.println("Data e atual hora: " + sdf2.format(x1));
     }
 }
