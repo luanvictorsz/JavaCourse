@@ -24,8 +24,10 @@ public class Atividade020 {
         System.out.println("pastWeekInstante: " + pastWeekInstante);
         System.out.println("nextWeekInstante: " + nextWeekInstante);
 
-        Duration t2 = Duration.between(pastWeekInstante, d03);
+        Duration t1 = Duration.between(pastWeekLocalDate.atTime(0,0), d01.atTime(0, 0));
+        Duration t2 = Duration.between(nextWeekLocalDate.atTime(0,0), d01.atTime(0, 0));
 
+        System.out.println("t1 dias = " + t1.toDays());
         System.out.println("t2 dias = " + t2.toDays());
     }
 }
