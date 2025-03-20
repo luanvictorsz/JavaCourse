@@ -19,11 +19,13 @@ public class Atividade021 {
         Date x1 = new Date();
         Date x2 = new Date(System.currentTimeMillis());
         Date x3 = new Date(0L);
+        Date x4 = new Date(1000L * 60L * 60L * 5L); //uma da manha de 1970
 
         System.out.println("Data e hora atual: " + sdf2.format(x1));
 
         //mesmo resultado
         System.out.println("Data e hora atual usando milissegundos: " + sdf2.format(x2));
         System.out.println("Data e hora com milissegundos zerados: " + sdf2.format(x3));
+        System.out.println(sdf2.format(x4));
     }
 }
