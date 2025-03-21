@@ -2,6 +2,7 @@ package Atividades;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.Instant;
 import java.util.Date;
 
 public class Atividade021 {
@@ -12,9 +13,11 @@ public class Atividade021 {
 
         Date y1 = sdf1.parse("19/03/2025");
         Date y2 = sdf2.parse("19/03/2025 20:00:24");
+        Date y3 = Date.from(Instant.parse("2025/03/21T18:07:53Z"));
 
         System.out.println("y1: " + sdf1.format(y1));
         System.out.println("y2: " + sdf2.format(y2));
+        System.out.println("y3: " + sdf2.format(y3)); //data formato UTC - A letra Z defini isso
 
         Date x1 = new Date();
         Date x2 = new Date(System.currentTimeMillis());
