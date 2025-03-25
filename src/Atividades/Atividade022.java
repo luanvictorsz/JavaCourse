@@ -19,5 +19,14 @@ public class Atividade022 {
         d = cal.getTime();
 
         System.out.println(d);
+
+        //obtendo uma unidade de tempo
+        int minutes = cal.get(Calendar.MINUTE);
+        int month = cal.get(Calendar.MONTH);
+
+        System.out.println("Minutos: " + minutes);
+        System.out.print("Mês: " + month );
+
+
     }
 }
