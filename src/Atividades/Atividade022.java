@@ -22,7 +22,7 @@ public class Atividade022 {
 
         //obtendo uma unidade de tempo
         int minutes = cal.get(Calendar.MINUTE);
-        int month = cal.get(Calendar.MONTH);
+        int month = 1 + cal.get(Calendar.MONTH);
 
         System.out.println("Minutos: " + minutes);
         System.out.print("Mês: " + month );
