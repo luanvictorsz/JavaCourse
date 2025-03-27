@@ -26,7 +26,5 @@ public class Atividade022 {
 
         System.out.println("Minutos: " + minutes);
         System.out.print("Mês: " + month );
-
-
     }
 }
