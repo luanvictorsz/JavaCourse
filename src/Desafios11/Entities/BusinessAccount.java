@@ -3,8 +3,8 @@ package Desafios11.Entities;
 public class BusinessAccount extends Account{
     private double loanLimit;
 
-    public BusinessAccount(){
-
+    public BusinessAccount() {
+        super();
     }
 
     public BusinessAccount(Integer number, String holder, Double balance, double loanLimit) {
