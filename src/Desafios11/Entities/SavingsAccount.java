@@ -4,7 +4,6 @@ public class SavingsAccount extends Account{
     private Double interestRate;
 
     public SavingsAccount(){
-        super();
     }
 
     public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
@@ -19,4 +18,15 @@ public class SavingsAccount extends Account{
     public void setInterestRate(Double interestRate) {
         this.interestRate = interestRate;
     }
+
+    public void UpdateBalance(){
+        balance += balance * interestRate;
+    }
+
+    //Sobreposição de  metodo com o Override;
+    @Override
+    public void Withdraw(double amount){
+        balance -= amount;
+    }
+
 }

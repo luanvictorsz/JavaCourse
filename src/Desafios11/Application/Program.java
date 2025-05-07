@@ -5,6 +5,7 @@ import Desafios11.Entities.BusinessAccount;
 import Desafios11.Entities.SavingsAccount;
 
 public class Program {
+    /*
     Account acc = new Account(1001, "Alex", 0.0);
     BusinessAccount bacc = new BusinessAccount(1002, "Victor", 0.0, 500.0);
 
@@ -15,9 +16,10 @@ public class Program {
 
     //DownCasting
     BusinessAccount acc4 = (BusinessAccount)acc2;
+    
     //acc4.Loan(100.0);
 
     BusinessAccount acc5 = (BusinessAccount)acc3; //obs: existe um erro de excessão por conversão por não ser possivel converter para BusinessAccount
-    //acc5.Loan(100.0);
+    //acc5.Loan(100.0); */
 }
 
