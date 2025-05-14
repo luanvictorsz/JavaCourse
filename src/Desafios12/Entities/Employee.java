@@ -1,7 +1,5 @@
 package Desafios12.Entities;
 
-import java.security.PublicKey;
-
 public class Employee {
     private String name;
     private Integer hours;
@@ -22,12 +20,14 @@ public class Employee {
     public void setName(String name) {
         this.name = name;
     }
+
     public Integer getHours() {
         return hours;
     }
     public void setHours(Integer hours) {
         this.hours = hours;
     }
+
     public Double getValuePerHours() {
         return valuePerHours;
     }
@@ -35,7 +35,7 @@ public class Employee {
         this.valuePerHours = valuePerHours;
     }
 
-    public  Double Payment(){
+    public  double Payment(){
         return hours * valuePerHours;
     }
 }
