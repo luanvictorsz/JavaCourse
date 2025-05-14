@@ -28,5 +28,4 @@ public class SavingsAccount extends Account{
     public void Withdraw(double amount){
         balance -= amount;
     }
-
 }
