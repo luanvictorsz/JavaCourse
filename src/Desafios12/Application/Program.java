@@ -29,6 +29,18 @@ public class Program {
 			
 			System.out.print("Value per hour: ");
 			double valuePerHour = sc.nextDouble();
+		
+			if(ch == "y") {
+				System.out.print("Addictional charge: ");
+				double addictionalCharge = sc.nextDouble();
+				Employee emp = new OutsourrcedEmployee(name, hours, valuePerHour, addictionalCharge);
+				list.add(emp);
+			}
+			else
+			{
+				Employee emp = new Employee(name, hours, valuePerHour);
+				list.add(emp);
+			}
 		}
 		
 		sc.close();
