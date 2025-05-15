@@ -23,6 +23,12 @@ public class Program {
 			System.out.print("Name: ");
 			sc.nextLine();
 			String name = sc.nextLine();
+			
+			System.out.print("Hours: ");
+			double hours = sc.nextDouble();
+			
+			System.out.print("Value per hour: ");
+			double valuePerHour = sc.nextDouble();
 		}
 		
 		sc.close();
