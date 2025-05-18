@@ -1,7 +1,10 @@
 package Desafios12.Application;
 
-import java.awt.List;
+import Desafios02.Employee;
+import Desafios12.Entities.OutsourcedEmployee;
+
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -9,7 +12,7 @@ public class Program {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc =  new Scanner(System.in);
-		
+
 		List<Employee> list = new ArrayList<>();
 		
 		System.out.println("Enter the number of employees: ");
@@ -25,15 +28,15 @@ public class Program {
 			String name = sc.nextLine();
 			
 			System.out.print("Hours: ");
-			double hours = sc.nextDouble();
+			int hours = sc.nextInt();
 			
 			System.out.print("Value per hour: ");
 			double valuePerHour = sc.nextDouble();
 		
-			if(ch == "y") {
+			if(ch == 'y') {
 				System.out.print("Addictional charge: ");
 				double addictionalCharge = sc.nextDouble();
-				Employee emp = new OutsourrcedEmployee(name, hours, valuePerHour, addictionalCharge);
+				Employee emp = new OutsourcedEmployee(name, hours, valuePerHour, addictionalCharge);
 				list.add(emp);
 			}
 			else

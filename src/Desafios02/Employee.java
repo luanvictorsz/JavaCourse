@@ -5,8 +5,11 @@ public class Employee {
 	public String Name;
 	public double GrossSalary;
 	public double Tax;
-	
-	public double netSalary() {
+
+    public Employee(String name, int hours, double valuePerHour) {
+    }
+
+    public double netSalary() {
 		return GrossSalary - Tax;
 	}
 	
