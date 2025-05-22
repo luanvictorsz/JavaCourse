@@ -6,6 +6,7 @@ public class Employee {
 	public double GrossSalary;
 	public double Tax;
 
+	public  Employee(){}
     public Employee(String name, int hours, double valuePerHour) {
     }
 

@@ -9,12 +9,12 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class Program {
-	public static void main(String[] args) {
+	public static void Executar(){
 		Locale.setDefault(Locale.US);
 		Scanner sc =  new Scanner(System.in);
 
 		List<Employee> list = new ArrayList<>();
-		
+
 		System.out.println("Enter the number of employees: ");
 		int n = sc.nextInt();
 
