@@ -3,9 +3,11 @@ package Desafios12.Entities;
 public class OutsourcedEmployee extends Employee {
     private Double additionalCharge;
 
-    public OutsourcedEmployee(){}
-    public OutsourcedEmployee(String name, Integer hours, Double valuePerHours, Double additionalCharge) {
-        super(name, hours, valuePerHours);
+    public OutsourcedEmployee() {
+    }
+
+    public OutsourcedEmployee(String name, Integer hours, Double valuePerHour, Double additionalCharge) {
+        super(name, hours, valuePerHour);
         this.additionalCharge = additionalCharge;
     }
 
@@ -18,8 +20,7 @@ public class OutsourcedEmployee extends Employee {
     }
 
     @Override
-    public double Payment(){
-        return super.Payment() + additionalCharge * 1.1;
+    public double payment() {
+        return super.payment() + additionalCharge * 1.1;
     }
-
 }
