@@ -40,6 +40,14 @@ public class Program {
                 Integer numberOfEmployee = sc.nextInt();
                 list.add(new Company(name, anualIncome, numberOfEmployee));
             }
+
+            System.out.println();
+            System.out.println("Taxes Paid: ");
+            for(TaxPayer tp : list){
+                System.out.println(tp.getName() + ": $ " + String.format("%.2f", tp.Tax()));
+            }
+
+            sc.close();
         }
     }
 }
