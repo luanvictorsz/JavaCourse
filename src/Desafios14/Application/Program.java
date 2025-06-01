@@ -4,7 +4,6 @@ import Desafios14.Entities.Company;
 import Desafios14.Entities.Individual;
 import Desafios14.Entities.TaxPayer;
 
-import java.io.Console;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -15,7 +14,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        List<TaxPayer> list = new ArrayList<TaxPayer>();
+        List<TaxPayer> list = new ArrayList<>();
 
         System.out.println("Enter the number of tax payers: ");
         int n = sc.nextInt();
@@ -29,23 +28,32 @@ public class Program {
             System.out.print("Name: ");
             String name = sc.next();
             System.out.print("Anual Income: ");
-            Double anualIncome = sc.nextDouble();
+            double anualIncome = sc.nextDouble();
             if(type == 'i'){
                 System.out.println("Health expenditures: ");
-                Double he = sc.nextDouble();
+                double he = sc.nextDouble();
                 list.add(new Individual(name, anualIncome, he));
             }
             else {
                 System.out.println("Number of employees: ");
-                Integer numberOfEmployee = sc.nextInt();
+                int numberOfEmployee = sc.nextInt();
                 list.add(new Company(name, anualIncome, numberOfEmployee));
             }
 
             System.out.println();
             System.out.println("Taxes Paid: ");
+
             for(TaxPayer tp : list){
                 System.out.println(tp.getName() + ": $ " + String.format("%.2f", tp.Tax()));
             }
+
+            double sum = 0.0;
+
+            for(TaxPayer tp: list){
+                sum += tp.Tax();
+            }
+
+            System.out.println("TOTAL TAXES: $ " + String.format("%.2f", sum));
 
             sc.close();
         }
